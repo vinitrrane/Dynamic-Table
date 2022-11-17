@@ -1,0 +1,16 @@
+.taskTable {
+    width: 100vw;
+}
+
+.taskTh {
+    padding: 2rem;
+}
+
+.taskTd {
+    height: 8rem;
+}
+
+.taskImg {
+    width: 100px;
+    height: 100px;
+}
