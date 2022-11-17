@@ -1,5 +1,6 @@
 .taskTable {
     width: 100vw;
+
 }
 
 .taskTh {
@@ -8,9 +9,11 @@
 
 .taskTd {
     height: 8rem;
+
 }
 
 .taskImg {
     width: 100px;
     height: 100px;
+    margin: 2px;
 }

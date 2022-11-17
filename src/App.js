@@ -12,7 +12,7 @@ function App() {
       "Project_Name",
       "Images",
       "CreatedBy",
-      "Name"
+
 
     ],
     Data: [

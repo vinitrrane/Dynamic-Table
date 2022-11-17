@@ -25,7 +25,8 @@ const Table = (props) => {
 
                                 if (formattedHeader == 'Images') {
 
-                                    return (<td className='taskTd' key={j}>{data[formattedHeader].map((img, i) => (<img className='taskImg' src={img} key={i} />))}</td>)
+                                    // return (<td className='taskTd' key={j}>{data[formattedHeader].map((img, i) => (<img className='taskImg' src={img} key={i} />))}</td>)
+                                    return (<td className='taskTd' key={j}>{data[formattedHeader].map((img, i) => i == 0 ? (<img className='taskImg' src={img} key={i} />) : <></>)}</td>)
 
                                 }
 
