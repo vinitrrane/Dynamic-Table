@@ -23,13 +23,13 @@ const Table = (props) => {
 
                                 const formattedHeader = head.split('_').join('');
 
-                                if (formattedHeader === 'Images') {
+                                if (formattedHeader == 'Images') {
 
                                     return (<td className='taskTd' key={j}>{data[formattedHeader].map((img, i) => (<img className='taskImg' src={img} key={i} />))}</td>)
 
                                 }
 
-                                else if (formattedHeader === 'Videos') {
+                                else if (formattedHeader == 'Videos') {
 
                                     return (<td className='taskTd' key={j}><video><source src={data[formattedHeader]} /></video></td>)
 
